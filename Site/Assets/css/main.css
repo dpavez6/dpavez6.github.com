@@ -1,0 +1,136 @@
+.html{
+    font-family: 'Indie Flower', cursive;
+}
+.content{
+    /* max-width: 900px;
+    max-height: 500px;
+    width: 100%;
+    height: 100%; */
+    height: 80vh;
+    width: 70vw;
+    background-color: white;
+    box-shadow: 0 3px 6px rgba(0,0,0.16), 0 3px 6px rgba(0,0,0.32);
+    position: relative;
+    padding: 1.5em;
+    border-radius: 10px;
+    overflow: scroll;
+}
+.contanier{
+    background: #799F0C;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ACBB78, #799F0C);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ACBB78, #799F0C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.table{
+    width: 100%;
+    border-spacing: 0;
+}
+.table td,
+.table th{
+    padding: 1em;
+    text-align: left;
+}
+.table tr:nth-child(even){
+    background-color: beige;
+}
+th{
+    display: none;
+}
+td{
+    display: block;
+}
+.inline{
+    display: inline-block;
+}
+.center{
+    text-align: center;
+}
+.underline{
+    border-top: solid #799F0C;
+    padding-top: 20px; 
+    border-bottom: solid #799F0C;
+    padding-bottom: 20px; 
+}
+.position{
+    background-color: #799F0C;
+    padding: 10px; 
+    border-radius: 4px;
+    margin-left: 5px;
+}
+.parrafo{
+    margin-left: 5px;
+}
+/* .action{
+     position: absolute;
+     top: 1em;
+     right: 1em;
+ } */
+ .action{
+    position: sticky;
+    top: 1em;
+    right: 1em;
+    display: flex;
+    justify-content: flex-end;
+}
+ .close{
+     height: 40px;
+     width: 40px;
+     background-color: #799F0C;
+     display: inline-block;
+     border-radius: 50px;
+     box-shadow: 0 3px 6px rgba(0,0,0.16), 0 3px 6px rgba(0,0,0.32);
+     font-weight: 300; 
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+ a{
+     text-decoration: none;
+ }
+ title{
+     text-transform: uppercase;
+     text-align: center;
+ }
+.item-image{
+    display: none;
+}
+iframe{
+     width: 70vw;
+}
+ /* Pseudo Clases */
+
+ i:hover{
+    color:red 
+ }
+ a:visited{
+     color:yellow
+ }
+
+ /* media breack point */
+   
+ @media(min-width:600px){
+    th{
+        display: table-cell;
+    }
+    td{
+        display: table-cell;
+    }
+    .item-image{
+        display: inline-block;
+    }
+    iframe{
+        width:420px;
+        height:215px;
+    }
+    inline{
+        display: inline-block;
+    }
+    .action{
+        position: absolute ;
+        top: 1em;
+        right: 1em;
+    }
+}
