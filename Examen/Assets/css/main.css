@@ -1,0 +1,66 @@
+.html{
+    font-family: 'Indie Flower', cursive;
+}
+.content-all{
+    height: 100%;
+    width: 90%;
+    background-color: white;
+    box-shadow: 0 3px 6px rgba(0,0,0.16), 0 3px 6px rgba(0,0,0.32);
+    position: relative;
+    padding: 1.5em;
+    border-radius: 10px;
+    overflow: scroll;
+}
+.contanier{
+    background-color: blue;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.inline{
+    display: inline-block;
+}
+.table{
+    width: 100%;
+    border-spacing: 0;
+    display: inline-block;
+}
+
+#lista1 {
+    font-family:Arial;
+    font-weight:bold;
+    font-size:13px;
+    background-color: blue
+}
+.separa {
+    color:white;
+}
+#lista1 li {
+     display:inline;
+     padding-left:5px;
+     padding-right:5px;
+}
+a {
+    color:white;
+    text-decoration:none;
+}
+
+.menu:hover {
+    color:black;
+    background-color:lightgray;
+}
+.textos{
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 15px;
+}
+
+ /* media breack point */
+   
+ @media(min-width:600px){
+    .textos{
+        display: inline-block;
+    }
+ }
